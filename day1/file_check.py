@@ -18,8 +18,8 @@ try:
             full_line += line.rstrip()
         full_line = full_line.replace(" ","")
         print(full_line)
-except IOError:
-    print("file not found")
+except IOError as err:
+    print("File Error " + str(err))
 
 
 # 猜生日是否在Pi内
