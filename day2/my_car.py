@@ -1,4 +1,4 @@
-from
+from day2.car import Car
 
 """
 
@@ -13,6 +13,7 @@ Author: Spike
 #
 # my_new_car.update_odometer(21)
 # my_new_car.read_odometer()
+print("This is a hello new method ")
 
 my_used_car = Car('subaru', 'outback', 2013)
 print(my_used_car.get_descriptive_name())
