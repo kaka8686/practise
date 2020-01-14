@@ -32,6 +32,8 @@ def UsePlatform():
     print ("Call Windows tasks")
   elif(sysstr == "Linux"):
     print ("Call Linux tasks")
+  elif(sysstr == "Darwin"):
+    print ("Call MacOS tasks")
   else:
     print ("Other System tasks")
 
