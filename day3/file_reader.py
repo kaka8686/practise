@@ -1,5 +1,6 @@
 import platform
 
+
 def UsePlatform():
   sysstr = platform.system()
   if(sysstr =="Windows"):
@@ -30,5 +31,4 @@ file_path = GetPath()
 with open(file_path) as file_object:
     contents = file_object.read()
     print(contents)
-
 
